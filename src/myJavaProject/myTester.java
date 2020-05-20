@@ -29,8 +29,10 @@ public class myTester {
 	}
 	
 	public static void bouncerResponse(String name, int age) {
-		if (age >= 19)
+		if (age >= 19) {
 			System.out.println("Welcome " + name + ". You may enter the bar.");
+			System.out.println("You enjoy a nice beer");
+		}
 		else
 			System.out.println("Sorry " + name +". You are too young to enter.");
 	}
