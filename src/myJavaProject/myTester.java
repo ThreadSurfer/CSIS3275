@@ -23,7 +23,16 @@ public class myTester {
 		
 		System.out.println("Hello, my name is " + myName +
 				" and I am " + myAge + " years old.");
+		
+		bouncerResponse(myName, myAge);
 
+	}
+	
+	public static void bouncerResponse(String name, int age) {
+		if (age >= 19)
+			System.out.println("Welcome " + name + ". You may enter the bar.");
+		else
+			System.out.println("Sorry " + name +". You are too young to enter.");
 	}
 
 }
